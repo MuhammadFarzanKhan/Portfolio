@@ -1,0 +1,94 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul> buttton {
+            padding:10px 20px
+            border-radius;  
+            color:  white;
+            border-width: none
+            border-style none
+            background-color #9929fb
+            font-size larger
+        
+}
+
+
+#logo>img{
+    display: imline-block;
+}
+
+#logo>h1{
+    display: inline-block;
+}
+
+#main{
+    border: 1px solid black;
+    width: 100%;
+}
+
+#left{ 
+    border: 2px solid red;
+    width: 49%;
+    height: 400px;
+    display: inline-block;
+
+}
+
+#right{
+    border: 2px solid green;
+    width: 49%;
+height :  400px;
+display : inline-block;
+}
+#text{
+    border: 2px solid blue;
+    margin:  50px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
