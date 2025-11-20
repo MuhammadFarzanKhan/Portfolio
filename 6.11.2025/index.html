@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEADPHONES SITE</title>
+    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+<link rel="stylesheet"
+ href="path/to/font-awesome/css/font-awesome.min.css"
+ >
+
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+ >
+
+ <link rel="stylesheet"
+  href=""
+  >
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+ <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    >
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </script>
+
+<header class="container-fluid border border-2 d-flex flex-wrap justify-content-between align-items-center bg-secondary gap-sm-2">
+  <div class="logo"><img class="border border-4 "
+     src="data:image/png;base64,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"
+     alt=""> </div>
+<div>
+<nav class="nav d-none d-sm-block">
+  <ul class="nav gap-3 fs-3 ">
+    <li class="home">Home</li>
+    <li><a href="http:./about.html"></a> About</li>
+    <li>Shop</li>
+    <li>Gallery</li>
+    <li>Reviews</li>
+    <li><input type="Search" placeholder="Search items"></li>
+  </ul>
+</nav>
+</div>
+<!--<div class="">
+  <input type="Search" placeholder="Search items">
+</div>-->
+<div class="btn">
+  <i></i>
+<button>Cart</button>
+<button>Signup</button>
+<button>Login</button>
+</div>
+</header>
+<!--Header complete-->
+<!--we give class d-sm-none
+we give class btn gap-3-->
+<section>
+<!---   <div class="whatsapp d-flex">
+<a href="https://wa.me/yournumber">
+  <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-icon-png-image_6315990.png" alt="">
+  <h4>Contact Us</h4>
+</a>-->
+<div class="text-center mt-5 mt-sm-5">
+  <hgroup>
+  <h1>
+    Latest Products
+  </h1>
+<h6>
+  Explore our latest collection and get the best deals here
+</h6>
+</hgroup>
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg" class="d-block w-60" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Daily Use Headphone</h5>
+        <p>Perfect product for every individual.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/1037996/pexels-photo-1037996.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/3394666/pexels-photo-3394666.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<!--section end-->
+
+
+<!--Cards-->
+
+<h1 class="text-center">Explore more</h1>
+
+<div>
+
+<div class="d-flex flex-wrap gap-3 container-fluid mx-auto">
+
+<div class="card mt-3 " style="width: 18rem;">
+  <img src="https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Gaming headphone</h5>
+    <p class="card-text">Compatible size and easy to setup for gamers specially.</p>
+    <a href="#" class="btn btn-primary">Add To Cart</a>
+  </div>
+</div>
+
+<div class="card mt-3 " style="width: 18rem;">
+  <img src="https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Gaming headphone</h5>
+    <p class="card-text">Compatible size and easy to setup for gamers specially.</p>
+    <a href="#" class="btn btn-primary">Add To Cart</a>
+  </div>
+</div>
+
+<div class="card mt-3 " style="width: 18rem;">
+  <img src="https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Gaming headphone</h5>
+    <p class="card-text">Compatible size and easy to setup for gamers specially.</p>
+    <a href="#" class="btn btn-primary">Add To Cart</a>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

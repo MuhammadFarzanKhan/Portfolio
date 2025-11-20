@@ -1,0 +1,59 @@
+
+
+.div1{
+    width: 1440px;
+    height: 800px;
+    color: white;
+    border: 10px solid black;
+}
+.div1>img{
+    width: 1120px;
+height: 43px;
+top: 40px;
+left: 160px;
+justify-content: space-between;
+}
+.div1.car21{
+ width: 1048px;
+height: 537px;
+top: 182px;
+left: 649px;
+}
+.frame17{
+width: 1120px;
+height: 72px;
+top: 680px;
+left: 160px;
+padding-top: 12px;
+padding-right: 12px;
+padding-bottom: 12px;
+padding-left: 32px;
+gap: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
